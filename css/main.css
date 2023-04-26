@@ -56,7 +56,7 @@ a:hover{text-decoration: none;color: #666;}
 .slide1>p:nth-of-type(1){ color: #07284b;font-size: 22px;font-weight:600;margin-bottom: 10px;}
 .slide1>p:nth-of-type(2){color: #16314E;font-size: 34px;margin-bottom: 10px;font-weight: 700;}
 .slide1>p>strong{color: #0094da;font-size: 34px;font-weight: 700;}
-.slide2>p:nth-of-type(1){ color: #07284b;font-size: 22px;font-weight:2px;}
+.slide2>p:nth-of-type(1){ color: #07284b;font-size: 22px;}
 .slide2>p:nth-of-type(2){color: #16314E;font-size: 34px;}
 .slide2>p>strong{color: #0094da;}
 
@@ -126,7 +126,7 @@ button {
 .infobox li:nth-of-type(2):hover span:first-of-type{background:linear-gradient(100deg,#58FAF4,#0080FF);}
 
 .infobox li:hover span:first-of-type i{color: #fff;}
-.infobox li span:first-of-type>i{scale: 1.5;margin-left: 12px;margin-top: 10px;}
+.infobox li span:first-of-type>i{margin-left: 12px;margin-top: 10px;}
 
 .infobox li span:nth-of-type(2){position: relative; display: block; width: 130px;height: 130px; background: url(../img/icon_mc02_01.png) no-repeat;transform: scale(0.45);}
 
@@ -142,7 +142,7 @@ button {
 .bannerinner{position: relative;width: 450px;height: 80px; margin: 0 auto;display: flex;justify-content: flex-start;padding:10px;border-radius: 15px;padding: 20px 10px 20px 10px;background-color: #fff;margin-top: 10px;}
 .bannerwrap li{margin-left: 10px;height: 80px;}
 
-.rollbanner{position: relative;display: flex; border: 1px solid black;height: 170px; width: px;transform: scale(0.5);bottom: 50px;right: 50px;overflow: hidden;}
+.rollbanner{position: relative;display: flex; border: 1px solid black;height: 170px; transform: scale(0.5);bottom: 50px;right: 50px;overflow: hidden;}
 
 .bannersub{margin-left: 20px;}
 .bannersub>h3{width: 70px;}
@@ -185,7 +185,7 @@ button {
 .state2>div:first-of-type>span:nth-of-type(1){font-size: 25px;}
 .state2>div:first-of-type>span:nth-of-type(2){font-size: 28px;font-weight: 600;}
 /* 그래프 */
-.chart{position: relative; border: 1px solid black;width:80%px ;height: 150px;margin: 20px ;overflow: hidden;}
+.chart{position: relative; border: 1px solid black;width:80%;height: 150px;margin: 20px ;overflow: hidden;}
 #crosshairX {position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;}
 #crosshairX:before { content: ""; position: absolute; top: 0; left: 0; width: 1px; height: 100%; background-color: black;}
 .y-coordinate { position: absolute; width: 100%; height: 1px; background-color: black;}
@@ -384,7 +384,7 @@ button {
 .slide1>p:nth-of-type(1){ color: #07284b;font-size: 22px;font-weight:600;margin-bottom: 10px;}
 .slide1>p:nth-of-type(2){color: #16314E;font-size: 34px;margin-bottom: 10px;font-weight: 700;}
 .slide1>p>strong{color: #0094da;font-size: 34px;font-weight: 700;}
-.slide2>p:nth-of-type(1){ color: #07284b;font-size: 22px;font-weight:2px;}
+.slide2>p:nth-of-type(1){ color: #07284b;font-size: 22px;}
 .slide2>p:nth-of-type(2){color: #16314E;font-size: 34px;}
 .slide2>p>strong{color: #0094da;}
 
@@ -464,7 +464,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .infobox li:nth-of-type(2):hover span:first-of-type{background:linear-gradient(100deg,#58FAF4,#0080FF);}
 
 .infobox li:hover span:first-of-type i{color: #fff;}
-.infobox li span:first-of-type>i{scale: 1.5;margin-left: 12px;margin-top: 10px;}
+.infobox li span:first-of-type>i{margin-left: 12px;margin-top: 10px;}
 
 .infobox li span:nth-of-type(2){position: relative; display: block; width: 150px;height: 150px;left: 130px;bottom:-20px; background: url(../img/icon_mc02_01.png) no-repeat;transform: scale(0.7);}
 .infobox li:nth-of-type(3) span:nth-of-type(1){display: block; background-color: #F2F2F2 ;transform: translateY(80px);}
@@ -623,7 +623,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .slide1>p:nth-of-type(1){ color: #07284b;font-size: 28px;font-weight:600;margin-bottom: 10px;}
 .slide1>p:nth-of-type(2){color: #16314E;font-size: 40px;margin-bottom: 10px;font-weight: 700;}
 .slide1>p>strong{color: #0094da;font-size: 40px;font-weight: 700;}
-.slide2>p:nth-of-type(1){ color: #07284b;font-size: 30px;font-weight:2px;}
+.slide2>p:nth-of-type(1){ color: #07284b;font-size: 30px;}
 .slide2>p:nth-of-type(2){color: #16314E;font-size: 50px;}
 .slide2>p>strong{color: #0094da;}
 
@@ -703,7 +703,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .infobox li:nth-of-type(2):hover span:first-of-type{background:linear-gradient(100deg,#58FAF4,#0080FF);}
 
 .infobox li:hover span:first-of-type i{color: #fff;}
-.infobox li span:first-of-type>i{scale: 1.5;margin-left: 12px;margin-top: 10px;}
+.infobox li span:first-of-type>i{margin-left: 12px;margin-top: 10px;}
 
 .infobox li span:nth-of-type(2){position: absolute; display: block; width: 150px;height: 150px;right: 10px;bottom: 10px; background: url(../img/icon_mc02_01.png) no-repeat;}
 .infobox li:nth-of-type(3) span:nth-of-type(1){display: block; background-color: #F2F2F2 ;transform: translateY(80px);}
@@ -860,7 +860,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .slide1>p:nth-of-type(1){ color: #07284b;font-size: 28px;font-weight:600;margin-bottom: 10px;}
 .slide1>p:nth-of-type(2){color: #16314E;font-size: 40px;margin-bottom: 10px;font-weight: 700;}
 .slide1>p>strong{color: #0094da;font-size: 40px;font-weight: 700;}
-.slide2>p:nth-of-type(1){ color: #07284b;font-size: 30px;font-weight:2px;}
+.slide2>p:nth-of-type(1){ color: #07284b;font-size: 30px;}
 .slide2>p:nth-of-type(2){color: #16314E;font-size: 50px;}
 .slide2>p>strong{color: #0094da;}
 
@@ -940,7 +940,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .infobox li:nth-of-type(2):hover span:first-of-type{background:linear-gradient(100deg,#58FAF4,#0080FF);}
 
 .infobox li:hover span:first-of-type i{color: #fff;}
-.infobox li span:first-of-type>i{scale: 1.5;margin-left: 12px;margin-top: 10px;}
+.infobox li span:first-of-type>i{margin-left: 12px;margin-top: 10px;}
 
 .infobox li span:nth-of-type(2){position: absolute; display: block; width: 150px;height: 150px;right: 10px;bottom: 10px; background: url(../img/icon_mc02_01.png) no-repeat;}
 .infobox li:nth-of-type(3) span:nth-of-type(1){display: block; background-color: #F2F2F2 ;transform: translateY(80px);}
@@ -1098,7 +1098,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .slide1>p:nth-of-type(1){ color: #07284b;font-size: 36px;font-weight:600;margin-bottom: 10px;}
 .slide1>p:nth-of-type(2){color: #16314E;font-size: 60px;margin-bottom: 10px;font-weight: 700;}
 .slide1>p>strong{color: #0094da;font-size: 70px;font-weight: 700;}
-.slide2>p:nth-of-type(1){ color: #07284b;font-size: 30px;font-weight:2px;}
+.slide2>p:nth-of-type(1){ color: #07284b;font-size: 30px;}
 .slide2>p:nth-of-type(2){color: #16314E;font-size: 50px;}
 .slide2>p>strong{color: #0094da;}
 
@@ -1178,7 +1178,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .infobox li:nth-of-type(2):hover span:first-of-type{background:linear-gradient(100deg,#58FAF4,#0080FF);}
 
 .infobox li:hover span:first-of-type i{color: #fff;}
-.infobox li span:first-of-type>i{scale: 1.5;margin-left: 12px;margin-top: 10px;}
+.infobox li span:first-of-type>i{margin-left: 12px;margin-top: 10px;}
 
 .infobox li span:nth-of-type(2){position: absolute; display: block; width: 150px;height: 150px;right: 10px;bottom: 10px; background: url(../img/icon_mc02_01.png) no-repeat;}
 .infobox li:nth-of-type(3) span:nth-of-type(1){display: block; background-color: #F2F2F2 ;transform: translateY(80px);}
@@ -1332,7 +1332,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 
 
 
-.slide1>p:nth-of-type(1){ color: #07284b;font-size: 30px;font-weight:2px;margin-bottom: 10px;}
+.slide1>p:nth-of-type(1){ color: #07284b;font-size: 30px;margin-bottom: 10px;}
 .slide1>p:nth-of-type(2){color: #16314E;font-size: 50px;margin-bottom: 10px;}
 .slide1>p>strong{color: #0094da;}
 .slide2>p:nth-of-type(1){ color: #07284b;font-size: 30px;font-weight:2px;}
@@ -1414,7 +1414,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .infobox li:nth-of-type(2):hover span:first-of-type{background:linear-gradient(100deg,#58FAF4,#0080FF);}
 
 .infobox li:hover span:first-of-type i{color: #fff;}
-.infobox li span:first-of-type>i{scale: 1.5;margin-left: 12px;margin-top: 10px;}
+.infobox li span:first-of-type>i{margin-left: 12px;margin-top: 10px;}
 
 .infobox li span:nth-of-type(2){position: absolute; display: block; width: 150px;height: 150px;right: 10px;bottom: 10px; background: url(../img/icon_mc02_01.png) no-repeat;}
 .infobox li:nth-of-type(3) span:nth-of-type(1){display: block; background-color: #F2F2F2 ;transform: translateY(80px);}
