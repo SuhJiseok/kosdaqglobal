@@ -1,3 +1,4 @@
+window.addEventListener('load', ()=>{
 // 모바일 넓이일때 gnb
 
 const snbWrapLi = document.querySelectorAll('.snb_wrap>ul>li');
@@ -279,3 +280,4 @@ function activation(index, list){
   }
   list[index].classList.add("on","active");
 }
+})
