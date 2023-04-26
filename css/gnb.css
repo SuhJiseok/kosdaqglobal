@@ -1,0 +1,82 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap');
+
+/* common */
+body{font-size: 14px;font-family: 'Noto Sans Korean', 'Noto Sans KR', 'nanum gothic', 'Dotum', '돋움', 'Arial', sans-serif;background-color: aquamarine;}
+a{text-decoration: none;color: #666;}
+a:hover{text-decoration: none;color: #666;}
+.snb_wrap{display: none;}
+
+
+#header{width: 100%;position: fixed; background-color: grey;display: flex;}
+.logo{ position: relative; background: url(../img/logo.png) no-repeat;width: 180px;height: 100px;margin-left: 60px;border: 1px solid blue;}
+#header>.gnb>.gnb_inner{display: flex;justify-content: space-around;margin: 0 auto;}
+.gnb_inner > li{border: 1px solid red;width: 240px;text-align: center;margin-top: 30px;font-size: 18px;}
+.gnb_inner > li:first-of-type{padding-left: 450px;}
+.gnb_inner > li:last-of-type{padding-right: 200px;}
+
+
+.gnb_inner > li > ul{display: none;}
+.gnb_inner > li > ul{border:1px solid blue;margin-top: 20px;height: 400px;}
+.gnb_inner > li > ul>li{margin-top: 15px;font-size: 16px;}
+.gnb_inner > li:hover> ul {display: block;}
+
+
+.gnb_inner > li > ul>li>ul{display: none;}
+.gnb_inner > li > ul>li:hover>ul{display: block;}
+
+
+/* 햄버거버튼 */
+.menu-btn {
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 20px;
+  
+  cursor: pointer;
+  /* border: 5px solid #fff; */
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-btn__burger,
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  width: 30px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #333;
+  
+
+  transition: all 0.2s ease-in-out;
+}
+.menu-btn__burger::before,
+.menu-btn__burger::after {
+  content: "";
+  position: absolute;
+}
+.menu-btn__burger::before {
+  transform: translateY(-9px);
+}
+.menu-btn__burger::after {
+  transform: translateY(9px);
+}
+
+/* ANIMATION */
+.menu-btn.open .menu-btn__burger {
+  transform: translateX(-50px);
+  background-color: transparent;
+  box-shadow: none;
+}
+.menu-btn.open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(35px, -35px);
+  background-color: #fff;
+}
+.menu-btn.open .menu-btn__burger::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+  background-color: #fff;
+}
