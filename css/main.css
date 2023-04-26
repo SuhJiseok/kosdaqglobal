@@ -303,7 +303,7 @@ button {
 
 .tablewrap>div>h3{margin: 20px;font-size: 15px;font-weight: 600;margin-left: 20px;}
 
-.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: #a7a7a7;}
+.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: black;}
 .marketCap th { text-align: center; height: 59px;}
 
 .marketVolume th { text-align: center;height: 30px; }
@@ -652,7 +652,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .tablewrap>div:nth-of-type(1){margin-bottom: 30px;}
 .tablewrap>div>h3{margin: 20px;font-size: 25px;font-weight: 600;margin-left: 40px;}
 
-.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: #a7a7a7;}
+.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: black;}
 .marketCap th { text-align: center; height: 59px;}
 
 .marketVolume th { text-align: center;height: 30px; }
@@ -1020,7 +1020,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .tablewrap>div:first-of-type{margin-left: 15px;}
 .tablewrap>div>h3{margin: 20px;font-size: 25px;font-weight: 600;}
 
-.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: #a7a7a7;}
+.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: black;}
 .marketCap{}
 .marketCap th { text-align: center; height: 59px;}
 .marketVolume th { text-align: center; height: 29px;}
@@ -1384,7 +1384,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .tablewrap>div:first-of-type{margin-left: 15px;}
 .tablewrap>div>h3{margin: 20px;font-size: 25px;font-weight: 600;}
 
-.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: #a7a7a7;}
+.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: black;}
 .marketCap{}
 .marketCap th { text-align: center; height: 59px;}
 .marketVolume th { text-align: center; height: 29px;}
@@ -1748,7 +1748,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 .tablewrap>div:first-of-type{margin-left: 15px;}
 .tablewrap>div>h3{margin: 20px;font-size: 25px;font-weight: 600;}
 
-.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: #a7a7a7;}
+.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: black}
 .marketCap{}
 .marketCap th { text-align: center; height: 59px;}
 .marketVolume th { text-align: center; height: 29px;}
@@ -2109,7 +2109,7 @@ animation: ani1 0.8s ease-in-out 0s alternate infinite;}
 
 .tablewrap>div>h3{margin: 20px;font-size: 25px;font-weight: 600;}
 
-.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: #a7a7a7;}
+.tablewrap th {border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;color: black;}
 .marketCap th {padding: 10px; text-align: center; height: 59px;}
 .marketVolume th {padding: 10px; text-align: center; }
 
