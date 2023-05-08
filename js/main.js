@@ -33,26 +33,7 @@ window.addEventListener('load', ()=>{
   window.addEventListener('resize', toggleSubmenu);
   
   
-  // for (var j = 0; j < snbWrapLi.length; j++) {
-  //   snbWrapLi[j].addEventListener("click", (e) => {
-  //     const windowWidth = window.innerWidth;
-  
-  //     if (windowWidth >= 836 && windowWidth <= 1023) {
-  //       e.currentTarget;
-  //       for (let i = 0; i < snbWrapLi.length; i++) {
-          // if (snbsubul[i].classList.contains("on")) {
-          //   snbsubul[i].classList.remove("on");
-          // } else {
-          //   snbsubul[i].classList.add("on");
-          // }
-  //       }
-  //     }
-  //   });
-  // }
-  
-  
-  
-  
+
   // gnb
   const gnbMenu = document.querySelectorAll("nav.gnb>ul>li");
   const headerWrap = document.querySelector(".header_wrap");
